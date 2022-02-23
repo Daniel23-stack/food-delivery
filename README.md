@@ -1,0 +1,2 @@
+# food-delivery
+A complete solution using flutter framework created by Google is an open-source mobile application development. It is used to develop applications for Android and iOS, as well as being the primary method of creating applications. Foodie uses Laravel (PHP Framework for Web Artisans) Laravel is a web application framework with an expressive, elegant syntax. The foundation has been laided — freeing you to create without sweating the small things.
