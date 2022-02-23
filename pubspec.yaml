@@ -1,0 +1,75 @@
+name: foodie_delivery_boy
+description: Foodie Delivery Boy is food delivery mobile application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 2.0.0+2
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  assets_audio_player: ^3.0.3+3
+  basic_utils: ^3.3.3
+  cached_network_image: ^2.2.0+1
+  cool_alert: ^1.0.3
+  countdown_progress_indicator: ^0.0.1
+  dartx: ^0.7.1
+  dio: ^4.0.0
+  dio_http_cache_lts: ^0.4.0
+  edge_alert: ^0.0.1
+  file_picker: ^3.0.3
+  firebase_analytics: ^8.1.2
+  firebase_core: ^1.3.0
+  firebase_database: ^7.1.1
+  firebase_messaging: ^10.0.3
+  flag: ^3.2.2
+  floor: ^1.1.0
+  flutter_icons: ^1.0.0+1
+  flutter_local_notifications: ^6.0.0
+  flutter_staggered_animations: ^0.1.2
+  flutter_swiper: ^1.1.6
+  google_fonts: ^2.1.0
+  i18n_extension: 4.0.0
+  intl: ^0.17.0
+  location: ^4.3.0
+  lottie: ^1.1.0
+  map_launcher: ^0.8.1
+  maps_toolkit: ^1.1.0+2
+  pull_to_refresh: ^1.6.4
+  shared_preferences: ^2.0.6
+  shimmer: ^1.1.1
+  slide_to_confirm: ^0.0.7
+  smooth_page_indicator: ^0.1.5
+  stacked: ^1.7.6
+  url_launcher: ^6.0.9
+  velocity_x: ^2.6.1
+  vibration: ^1.7.3
+
+dependency_overrides:
+  flutter_svg: ^0.22.0
+  args: ^2.0.0
+  analyzer: ^1.5.0
+  rxdart: ^0.27.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.0.6
+  floor_generator: ^1.1.0
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/animations/lottie/
+    - assets/sounds/
